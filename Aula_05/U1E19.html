@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de usuarios</title>
+    </head>
+    <body>
+        <h1>Cadastro de usuários</h1>
+
+        <form action="#">
+            <div>
+                <label for="name">Nome completo:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="login">Login:</label>
+                <input type="text" name="login" id="login">
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" minlength="6">
+            </div>
+            <div>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="nascimento">
+            </div>
+            <div>
+                <label for="status">Status:</label>
+                <select name="status" id="status">
+                    <option value="ativo">Ativo</option>
+                    <option value="inativo">Inativo</option>
+                </select>
+            </div>
+            <div>
+                <label for="tipo">Tipo:</label>
+                <input type="radio" id="estudante" name="tipo"/>
+                <label for="estudante">Estudante</label>
+
+                <input type="radio" id="professor" name="tipo"/>
+                <label for="professor">Professor</label>
+                
+                <input type="radio" id="tecnico" name="tipo"/>
+                <label for="tecnico">Técnico-Administrativo</label>
+            </div>
+            <div>
+                <label for="observacoes">Observações:</label>
+                <textarea name="observacoes" id="observacoes"></textarea>
+            </div>
+            <div>
+                <label for="modulos">Módulos:</label>
+                <input type="checkbox" name="ensino" id="modulos">
+                <label for="ensino">Ensino</label>
+                
+                <input type="checkbox" name="pesquisa" id="modulos">
+                <label for="pesquisa">Pesquisa</label>
+                
+                <input type="checkbox" name="estensao" id="modulos">
+                <label for="estensao">Estensão</label>
+            </div>
+            <div class="button">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </body>
+</html>

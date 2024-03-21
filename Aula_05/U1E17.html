@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de produtos</title>
+    </head>
+    <body>
+        <h1>Cadastro de produtos</h1>
+
+        <form action="#">
+            <div>
+                <label for="name">Nome do produto:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="descricao">Descrição do produto:</label>
+                <textarea name="descricao" id="descricao" cols="20" rows="2" required></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="date">Data de compra:</label>
+                <input type="date" name="date" id="date" required>
+            </div>
+            <br>
+            <div>
+                <label for="quantidade">Quantidade comprada:</label>
+                <input type="number" name="quantidade" id="quantidade" min="5" max="50" required>
+            </div>
+            <br>
+            <div class="button">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </body>
+</html>

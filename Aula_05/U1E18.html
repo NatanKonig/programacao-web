@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro do JIFSC</title>
+    </head>
+    <body>
+        <h1>Cadastro de estudantes para o JIFSC</h1>
+
+        <form action="#">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" minlength="11" maxlength="11">
+            </div>
+            <div>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="nascimento">
+            </div>
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone">
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" name="mail" id="mail">
+            </div>
+            <div>
+                <label for="curso">Nome do curso:</label>
+                <input type="text" name="curso" id="curso">
+            </div>
+            <div>
+                <label for="modalidade">Modalidade:</label>
+                <input type="radio" id="individual" name="modalidade"/>
+                <label for="individual">Individual</label>
+
+                <input type="radio" id="coletiva" name="modalidade"/>
+                <label for="coletiva">Coletiva</label>
+            </div>
+            <div>
+                <input type="checkbox" name="custo" id="custo" checked>
+                <label for="custo">Ajuda de custo</label>
+            </div>
+            <div class="button">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </body>
+</html>

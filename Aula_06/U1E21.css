@@ -1,0 +1,24 @@
+*{text-align: center;}
+
+h1{
+    color: darkgreen;
+    font-size: 50px;
+    font-style: oblique;
+}
+h2{
+    color: indigo;
+    font-size: 40px;
+    font-style: unset;    
+}
+
+h3{
+    color: red;
+    font-size: 30px;
+    font-style: inherit;
+}
+
+h4{
+    color: orange;
+    font-size: 20px;
+    font-style: italic;
+}
